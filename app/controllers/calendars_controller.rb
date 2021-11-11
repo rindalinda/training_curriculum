@@ -37,7 +37,7 @@ class CalendarsController < ApplicationController
 
 
       wday_num = Date.today.wday
-      if wday_num <= 7
+      if wday_num > 6
         wday_num = wday_num -7
       end
       
